@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-size: cover;
+  background-color: rgb(120, 40, 81);
+  height: 100vh;
+  font-family: sans-serif;
+  color: rgb(255, 215, 246);
+}
+#app {
+  display: inline-block;
+  align-items: center;
+  padding-top: 20%;
+}

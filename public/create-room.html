@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Room - File Sharing Room</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="create-room.html">Create Room</a></li>
+          <li><a href="join-room.html">Join Room</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Create Room</h1>
+      <form id="createRoomForm">
+        <input type="text" id="roomName" placeholder="Room Name" required />
+        <input
+          type="password"
+          id="roomPassword"
+          placeholder="Password"
+          required
+        />
+        <button type="submit">Create Room</button>
+      </form>
+    </main>
+    <script src="js/create-room.js"></script>
+  </body>
+</html>

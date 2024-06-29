@@ -1,0 +1,97 @@
+doctype html
+html
+  head
+    title Message Me
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet")
+    //link(href="stylesheet" rel="/public/stylesheet.css")
+    
+    style.
+      .pacifico-regular {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+       .slicky {
+        position: -webkit-sticky;
+        position: sticky;
+        background: linear-gradient(to bottom, #ccccff 0%, #99ccff 100%);
+        height: 40px;
+        }
+      form {
+        background-color: #e1dfea;
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      pre {
+        margin: 0;
+        font-size: 18px;
+      }
+      textarea {
+        width: 280px;
+        height: 100px;
+        resize: none;
+      }
+      input[type="text"] {
+        width: 280px;
+        padding: 8px;
+        margin-top: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      input[type="submit"] {
+        width: 50%;
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        background-color: #000000;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #394f66;
+      }
+      body {
+        background-color:#ccccff;
+        
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        align-items: center;
+        text-align: center;
+      }
+ 
+
+      h1 {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 13%;
+      }
+      form pre {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      
+
+  body
+    
+    h1 Hi this is Jothi , Message me anytime   
+    form(action="post" method="POST")
+      pre Post Your Message: 
+        br
+        input(type="text" name="id" placeholder="Your Name")
+        br
+        textarea(name="name" placeholder="Enter You Message")
+        br
+        input(type="submit" value="Send" class="Send")
+    p YOUR MESSAGES ;)    
+    pre 
+      code=JSON.stringify(body,null,2)
